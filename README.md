@@ -6,7 +6,7 @@ Alternatively, you can simply run the **game-of-life.exe** file included in this
 
 ![Game of Life](game-of-life.png)
 
-It's not actually a game, it's [cellular automata](https://en.wikipedia.org/wiki/Cellular_automaton "Cellular automaton").No controls, just let it run and watch the creation of life.
+It's not actually a game, it's [cellular automata](https://en.wikipedia.org/wiki/Cellular_automaton "Cellular automaton"). No controls, just let it run and watch the creation of life.
 
 | Key | Action  |
 | ------------ | ------------ |
