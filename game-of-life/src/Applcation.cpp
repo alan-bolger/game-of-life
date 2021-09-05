@@ -101,9 +101,7 @@ void Application::update()
 	{
 		for (int y = 1; y < Globals::WORLD_HEIGHT - 1; y++)
 		{
-			int f_neighbours = cell(x - 1, y - 1) + cell(x - 0, y - 1) + cell(x + 1, y - 1) +
-							   cell(x - 1, y + 0) +			 0		   + cell(x + 1, y + 0) +
-							   cell(x - 1, y + 1) + cell(x + 0, y + 1) + cell(x + 1, y + 1);
+			int f_neighbours = cell(x - 1, y - 1) + cell(x - 0, y - 1) + cell(x + 1, y - 1) + cell(x - 1, y + 0) + 0 + cell(x + 1, y + 0) + cell(x - 1, y + 1) + cell(x + 0, y + 1) + cell(x + 1, y + 1);
 
 			// Set cell state
 			if (cell(x, y) == 1)
@@ -140,7 +138,7 @@ void Application::draw()
 	m_window.clear();
 
 	sf::Sprite f_pixelGridSprite(m_pixelGrid.getPixelBuffer());
-	f_pixelGridSprite.scale(sf::Vector2f(4, 4));
+	f_pixelGridSprite.scale(sf::Vector2f(2, 2));
 
 	sf::Sprite f_renderTextureSprite(m_renderTexture.getTexture());
 	
